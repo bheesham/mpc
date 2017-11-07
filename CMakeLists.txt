@@ -4,6 +4,6 @@ project(mpc
     VERSION 0.8.8
     LANGUAGES C)
 
-add_library(mpc STATIC
+add_library(mpc SHARED
     mpc.h
     mpc.c)
